@@ -71,3 +71,14 @@ services:
 
 
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DOCKER COMPOSE
+Docker Compose is a tool that allows you to define and manage multi-container Docker applications. It simplifies the process of running multiple containers, their configurations, and their interdependencies. Compose uses a YAML file to define the services, networks, and volumes required for your application.
+	Docker Compose is a tool which is used to manage multi container-based applications.
+	Using Docker Compose we can easily setup & deploy multi container-based applications.
+	We will give containers information to Docker Compose using YML file  (docker-compose.yml)
+	Docker Compose YML should have all the information related to containers creation.
+	Docker Compose YML File Looks Like:
